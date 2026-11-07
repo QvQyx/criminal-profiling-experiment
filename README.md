@@ -4,9 +4,11 @@ Inspired by my research into family disadvantage and teenage crime, I wanted to 
 
 I built a Random Forest classifier using 500 simulated records and a Streamlit interface for exploring its predictions. Through the project, I realised that the model was learning the rules I had created—not patterns verified by real-world evidence.
 
-This project taught me that the algorithm and the data it learns from are equally important. A model’s predictions are only meaningful when supported by reliable data.
+Working with simulated data helped me realise that a dataset can follow clear rules without reflecting real-world behaviour. This taught me the importance of understanding how a dataset is created, what assumptions it contains, and what conclusions it can support.
 
 **Python · NumPy · pandas · scikit-learn · Streamlit**
+
+[Try the live demo](https://qvqyx-criminal-profiling.streamlit.app/)
 
 ## Try it locally
 

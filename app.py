@@ -33,5 +33,5 @@ with st.expander("How does it work?"):
     st.write("Age and income do not determine the labels. The model learns from 400 records, with 100 held back for evaluation. The model and the original rule both achieve 100% accuracy on that test split: this shows rule recovery, not real-world validity.")
     st.write("Inputs outside the observed training range may produce less consistent results.")
 st.subheader("What I learned")
-st.write("This project taught me that the algorithm and the data it learns from are equally important. A model’s predictions are only meaningful when supported by reliable data.")
+st.write("Working with simulated data helped me realise that a dataset can follow clear rules without reflecting real-world behaviour. This taught me the importance of understanding how a dataset is created, what assumptions it contains, and what conclusions it can support.")
 st.caption("Python · NumPy · pandas · scikit-learn · Streamlit")
